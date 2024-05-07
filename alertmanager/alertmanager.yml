@@ -12,6 +12,6 @@ receivers:
         auth_username: 'weswanyama@gmail.com'
         auth_password: "akvc vfjr nkej fgoh"
         from: 'weswanyama@gmail.com'
-        to: 'weswanyama@gmail.com'
+        to: 'wisywes@gmail.com'
         headers:
           subject: 'Prometheus Mail Alerts'

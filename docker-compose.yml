@@ -64,8 +64,10 @@ services:
     ports:
       - 3000:3000
     restart: always
+    # environment:
+    #   - GF_PATHS_CONFIG=/etc/grafana/grafana.ini
     volumes:
-      - ./grafana:/etc/grafana
+      #- ./grafana:/etc/grafana
       - /grafana_data:/var/lib/grafana
 
     networks:
