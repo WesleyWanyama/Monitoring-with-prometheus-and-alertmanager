@@ -68,7 +68,7 @@ services:
     # environment:
     #   - GF_PATHS_CONFIG=/etc/grafana/grafana.ini
     volumes:
-      #- ./grafana:/etc/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning #additional configuration for automatic configuration of Prometheus
       - /grafana_data:/var/lib/grafana
 
     networks:
